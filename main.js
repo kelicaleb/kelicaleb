@@ -1,24 +1,18 @@
-const form = document.querySelector("#caleb");
+const a = document.querySelector("#caleb");
 var male = ['Kwasi', 'Kwandwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
 
-form.addEventListener("submit", function(x){
-    x.preventDefault();
-    const jsform = new FormData(form);  
-    console.log(jsform.get("gender"));
-    const day = new Date(jsform.get("dob")).getDate()
-    console.log(day);
-    if (jsform.get("gender") == "male"){
-        alert("Your Akan name is " + male[day -1]);
-    
-    }
-    else{
-      alert("Your Akan name is " + female[day -1]);
+a.addEventListener("submit", function(x){
+  x.preventDefault();
+  const jsform = new FormData(a);
+  const b = new Date(jsform.get("dob")).getDay()
+  console.log(jsform.get("gender"))
+  if(jsform.get("gender") == "male"){
+    alert("your Akan name is " + male[b -1]);
+  }
+  else{
+    alert("Your Akan name is " + female[b -1 ]);
+  }
 
-    }
-
-    })
-
-
-
+})

@@ -1,5 +1,5 @@
 body {
-    background-image: url("../kelicaleb-1/kelicaleb/Ghana.jpg"); 
+    background-image: url("Ghana.jpg"); 
     background-color: #7d83a8; 
     height: 500px;
     background-position: center;
@@ -15,7 +15,7 @@ body {
 
 
 }
-.dob{
+.calender{
     max-width: 350px;
     border-radius: 400px;
     margin: auto;
