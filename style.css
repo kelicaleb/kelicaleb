@@ -1,40 +1,50 @@
-body {
-    background-image: url("Ghana.jpg"); 
-    background-color: #7d83a8; 
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+.ul{
+    height: 700px;
+    width: 100%;
+    padding-left:22%;
+    padding-top:4%;
 }
-.paragraph{
-    max-width: 450px;
-    border-radius: 400px;
-    margin: auto;
-    font-size:large;
-    font-style:italic;
-
-
-}
-.calender{
-    max-width: 350px;
-    border-radius: 400px;
-    margin: auto;
-}
-.male{
-    max-width: 350px;
-    border-radius: 400px;
-    margin: auto;
+.card {
+    border: 12px solid blue;
+    border-top-left-radius: 60px 90px;
+    border-bottom-right-radius: 60px 90px;
+    background: url(../images/wall.jpg) no-repeat center;
+    -moz-box-shadow: 15px 15px 47px rgba(137, 8, 79, 0.537), -15px -15px 47px aqua;
+    -webkit-box-shadow: 15px 15px 47px rgb(255, 0, 251), -15px -15px 47px aqua;
+    box-shadow: 15px 15px 47px rgb(175, 4, 166), -15px -15px 47px aqua;
+    border: 15px solid rgb(36, 36, 36);
+    border-bottom: 60px solid rgb(35, 35, 35);
+    height:550px;
+    width: 450px;
 
 }
-.female{
-    max-width: 350px;
-    border-radius: 400px;
-    margin: auto;
-}
-.button{
-    max-width: 450px;
-    border-radius: 400px;
-    margin: auto;
+  
 
+body{
+    background: linear-gradient(black, rgb(0, 0, 0));
 }
-
+.but{
+    padding-left: 19%;
+}
+.but2{
+    padding-left: 25%;
+}
+.image{
+    width: 100%;
+    height: 87%;
+    background-size: cover;
+    padding-left:2%;
+}
+.header{
+    font-style: serif;
+    font-size:35px;
+    color:rgb(207, 207, 207);
+    padding-left: 45%;
+}
+.headerjs{
+    color:rgb(207, 207, 207);
+    font-style: serif;
+}
+.center{
+    padding-left:4%;
+}
